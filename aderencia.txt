@@ -1,0 +1,62 @@
+
+## Home Page
+
+Botão buscar missões
+
+- Possui a tag html button e o texto "Buscar missões", o que já é suficiente para construir um bom locator
+
+checkbox de bases lunares
+
+- Possui texto no Span na qual eu consigo identificar a bvase e com /.. do xpath posso chegar no label para clicar no botão.
+
+Caixa de Seleção para ordernar data de missões
+
+- Select simples do html com options e também possui um identificar
+
+## Pagina de resultados (/missions)
+
+Botão refinar
+
+- Possui a tag html button e o texto "Refinar", o que já é suficiente para construir um bom locator
+
+- o filtro de bases lunares já tem identificar
+- Ordenar por está usando select padrãoo html
+
+OBS: Seria muito melhor padronizar os elementos de caixa de selção de opções conformee o exemplo do filtro de bases lunares da pagina /missions. é mais elegante e tem um design mais sofisticado.
+
+
+
+Lista de missões
+
+Item de cada missão
+
+- A lista de missões é representada por uma UL, seria ótimo se cada li, tiver uma propriedade com uma informação relacionada ao código da missão.
+- Titulo ok, usa um h3
+- Descrição ok, usa um p  
+- Data de ida e volta, ruim, porque é um span pobre e sem graça, poderia ter um ID 
+- Estadia,  ruim, porque é um span pobre e sem graça, poderia ter um ID 
+- disponibilidade de assentos, também é miuto ruim, poderia ter um ID.
+- O botão reservar possui no atributo href o código da missão (a[href="/booking/LP-0127A"]) o que torna o processo de automação muito simples.
+
+Caixa de resultado quando nenhuma missão é encontrada
+
+
+Verificar se é acessível para testes automatizados, e se possível adicionar algum identificador.
+
+## Página da missão (/booking/LP-0827A)
+
+- Os botões de escolha de assento, já tem área label com informações relevantes. 
+Se der para melhorar ok.
+- Ao fazer hover em um assento, o popover, que mostra informações do assento escolhido, não está acessivel também. Melhorar isso com urgência.
+
+
+- Aside de resumo não tem identificador para nenhuma das informações
+
+- Na sessão de reserva confirmada, cada ivai facilitar muito as verificações
+
+
+
+
+
+
+
